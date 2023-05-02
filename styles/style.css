@@ -3,39 +3,61 @@
     padding: 10px;
     box-sizing: border-box;
     list-style: none;
-    color: red;
     text-align: center;
 }
 nav{
+    color: red;
     position: fixed;
     top: 0px;
     background-color: white;
     border-style: groove;
     border-width: 5px;
+    min-width: 750px;
     text-align: left;
+}
+.heading{
+    color: red;
+    font-size: 200%;
+}
+.patience-message{
+    background-image: linear-gradient(180deg, red, white);
+    border-style: solid;
+    color: black;
+    font-size: 150%;
 }
 body{
     background-image: url("../images/pixel-space-background.jpg");
     background-color: black;
     background-repeat: round;
+    color: red;
 }
-.flex-container{
+.flex-container1{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: blue;
     height: 400px;
 }
 @media(max-width: 800px){
-    .flex-container{
+    .flex-container1{
         flex-direction: column;
     }
 }
-.flex-box{
+.flex-box1{
     background-color: white;
+    border-style: solid;
     width: 250px;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+}
+.flex-box2{
+    background-color: white;
+    border-style: solid;
+    width: 200px;
 }
 footer{
     position: relative;
-    background-color: aqua;
 }
