@@ -1,0 +1,23 @@
+body{
+    background-image: url("../images/pixel-space-background.jpg");
+    background-color: black;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media(max-width: 800px){
+    .flex-container{
+        flex-direction: column;
+    }
+}
+.flex-box{
+    background-color: white;
+    border-style: solid;
+}
+img{
+    margin: auto;
+    height: 1000px;
+    width: 800px;
+}
