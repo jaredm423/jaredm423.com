@@ -2,18 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/cfvfeq7wqs4m/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp images $DEPLOYPATH
-    - /bin/cp webController.js $DEPLOYPATH
-    - export DEPLOYPATH=/home/cfvfeq7wqs4m/public_html/resume.jaredm423.com
-    - /bin/cp resume/index.html $DEPLOYPATH
-    - /bin/cp resume/style.css $DEPLOYPATH
-    - export DEPLOYPATH=/home/cfvfeq7wqs4m/public_html/aboutme.jaredm423.com
-    - /bin/cp aboutme/index.html $DEPLOYPATH
-    - /bin/cp aboutme/style.css $DEPLOYPATH
-    - export DEPLOYPATH=/home/cfvfeq7wqs4m/public_html/projects.jaredm423.com
-    - /bin/cp projects/index.html $DEPLOYPATH
-    - /bin/cp projects/style.css $DEPLOYPATH
-
+    - /bin/cp -R * $DEPLOYPATH
 
