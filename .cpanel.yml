@@ -5,3 +5,8 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp styles $DEPLOYPATH
     - /bin/cp images $DEPLOYPATH
+    - /bin/cp webController.js $DEPLOYPATH
+    - export DEPLOYPATH=/home/cfvfeq7wqs4m/public_html/resume.jaredm423.com
+    - export DEPLOYPATH=/home/cfvfeq7wqs4m/public_html/aboutme.jaredm423.com
+    - export DEPLOYPATH=/home/cfvfeq7wqs4m/public_html/projects.jaredm423.com
+
