@@ -26,7 +26,7 @@ nav{
     font-size: 150%;
 }
 body{
-    background-image: url("../images/pixel-space-background.jpg");
+    background-image: url("./images/pixel-space-background.jpg");
     background-color: black;
     background-repeat: round;
     color: red;
