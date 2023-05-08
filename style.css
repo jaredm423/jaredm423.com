@@ -13,15 +13,15 @@ nav{
     margin-left: 5px;
     height: 40px;
     width: 40px;
-    background-color: red;
-    background-image: url("./images/dropdown-icon.png");
+    background-color: black;
+    background-image: url("./images/dropdown-icon-white.png");
     background-size: 95%;
     cursor: pointer;
-    border-radius: 20%;
-    border-color:black;
+    border-radius: 10%;
+    border-color:white;
 }
 .dropdownBtn:hover, .dropdownBtn:focus{
-    background-color: darkred;
+    background-color: darkgray;
 }
 .dropdown-content{
     display: none;
@@ -37,7 +37,7 @@ nav{
     display: block;
 }
 .dropdown-content a:hover{
-    background-color: darkred;
+    background-color: darkgray;
 }
 .show{
     display: block;
@@ -45,7 +45,7 @@ nav{
 .heading{
     margin-top: 75px;
     padding: 10px;
-    color: red;
+    color: white;
     font-size: 200%;
     text-align: center;
 }
@@ -53,11 +53,11 @@ nav{
     margin-left: 15%;
     margin-right: 15%;
     min-width: 350px;
-    background-image: linear-gradient(180deg, red, white);
+    background-image: linear-gradient(180deg, black, white);
     border-style: solid;
-    border-color: red;
+    border-color: white;
     border-radius: 2%;
-    color: black;
+    color: whitesmoke;
     font-size: 150%;
     text-align: center;
 }
@@ -65,22 +65,22 @@ body{
     background-image: url("./images/pixel-space-background.jpg");
     background-color: black;
     background-repeat: round;
-    color: red;
+    color: white;
 }
 .Social-Media-Plug{
     margin-top: 50px;
     text-align: center;
 }
-.flex-container2{
+.flex-container1{
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 300px;
 }
-.flex-box2{
+.flex-box1{
     padding-top: 25px;
     background-color: white;
-    background-image: linear-gradient(180deg, white, red);
+    background-image: linear-gradient(180deg, white, black);
     border-style: solid;
     border-radius: 10%;
     height: 200px;
@@ -96,6 +96,9 @@ body{
     height: 175px;
 }
 footer{
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     text-align: center;
+    background-image: linear-gradient(180deg, black, darkgray);
 }
