@@ -1,10 +1,3 @@
-*{
-    margin: 10px;
-    padding: 10px;
-    box-sizing: border-box;
-    list-style: none;
-    text-align: center;
-}
 nav{
     margin: 0;
     padding: 0;
@@ -21,7 +14,7 @@ nav{
     height: 40px;
     width: 40px;
     background-color: black;
-    background-image: url("./images/dropdown-icon-white.png");
+    background-image: url("../images/dropdown-icon-white.png");
     background-size: 95%;
     cursor: pointer;
     border-radius: 10%;
@@ -50,6 +43,11 @@ nav{
     display: block;
 }
 body{
+    margin-top: 100px;
+    color: white;
     background-color: black;
     background-image: url("http://jaredm423.com/images/pixel-space-background.jpg");
+}
+.welcome-message{
+    text-align: center;
 }
