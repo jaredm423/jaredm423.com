@@ -22,8 +22,15 @@
             </div> 
         </nav>
     </div>
-    <div class="welcome-message">
-        <h1>Coming Soon...</h1>
+    <div class="heading">
+        <h2><span id="typed-content"></span></h1>
     </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#typed-content", {
+            strings: ["About me..."],
+            typeSpeed: 100,
+        });
+    </script>
 </body>
 </html>

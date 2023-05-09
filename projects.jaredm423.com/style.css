@@ -48,8 +48,9 @@ body{
     background-image: url("http://jaredm423.com/images/pixel-space-background.jpg");
     color: white;
 }
-.welcome-message{
+.heading{
     text-align: center;
+    font-size: 200%;
 }
 .flex-container1{
     margin-top: 250px;
