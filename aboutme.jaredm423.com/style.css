@@ -29,15 +29,19 @@ nav{
     background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
     z-index: 1;
 }
 .dropdown-content a{
     color: black;
+    text-decoration: solid;
+    font-weight: bold;    
     padding: 12px 16px;
     display: block;
 }
 .dropdown-content a:hover{
     background-color: darkgray;
+    border-radius: 5%;
 }
 .show{
     display: block;
@@ -51,4 +55,81 @@ body{
 .heading{
     text-align: center;
     font-size: 200%;
+}
+.outside-containers h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.flex-container-bio{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-box-bio-pic{
+    background-color: white;
+    width: 250px;
+}
+.flex-box-bio-text{
+    background-color: gray;
+    width: 250px;
+}
+.flex-container-skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-box-skills1{
+    text-align: center;
+    width: 200px;
+    color: black;
+    background-color: white;
+}
+.flex-box-skills2{
+    text-align: center;
+    width: 200px;
+    color: black;
+    background-color: white;
+}
+.flex-box-skills3{
+    text-align: center;
+    width: 200px;
+    color: black;
+    background-color: white;
+}
+.flex-container-passion{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-box-passion1{
+    text-align: center;
+    width: 200px;
+    color: black;
+    background-color: white;
+}
+.flex-box-passion2{
+    text-align: center;
+    width: 200px;
+    color: black;
+    background-color: white;
+}
+.flex-box-passion3{
+    text-align: center;
+    width: 200px;
+    color: black;
+    background-color: white;
+}
+.flex-container-contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-box-contact1{
+    text-align: center;
+    width: 200px;
+    color: black;
+    background-color: white;
+}
+.flex-box-contact2{
+    text-align: center;
+    width: 200px;
+    color: black;
+    background-color: white;
 }
