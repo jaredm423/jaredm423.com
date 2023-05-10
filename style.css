@@ -52,21 +52,10 @@ nav{
     color: white;
     font-size: 200%;
     text-align: center;
+    min-height: 250px;
 }
 span.typed-content{
     color: white;
-}
-.patience-message{
-    margin-left: 15%;
-    margin-right: 15%;
-    min-width: 350px;
-    background-image: linear-gradient(180deg, black, white);
-    border-style: solid;
-    border-color: white;
-    border-radius: 2%;
-    color: whitesmoke;
-    font-size: 150%;
-    text-align: center;
 }
 body{
     background-image: url("./images/pixel-space-background.jpg");
@@ -74,7 +63,29 @@ body{
     background-repeat: round;
     color: white;
 }
-.Social-Media-Plug{
+.flex-container-bio{
+    display: flex;
+    justify-content: center;
+}
+.flex-box-bio-pic{
+    justify-content: left;
+    background-color: white;
+    width: 250px;
+    border-radius: 30%;
+    z-index: 1;
+}
+.flex-box-bio-text{
+    justify-content: right;
+    width: 500px;
+    margin-left: -100px;
+    font-size: 120%;
+    background-image: linear-gradient(to right, darkgray, rgba(0,0,0,0.1));
+    background-color: rgba(0, 0, 0, 0.66);
+}
+.flex-box-bio-text p{
+    margin-left: 110px;
+}
+.social-media-plug{
     margin-top: 50px;
     text-align: center;
 }
