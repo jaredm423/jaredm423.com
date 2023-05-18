@@ -7,6 +7,7 @@ nav{
     left: 0px;
     min-width: 100%;
     background-color:rgba(0, 0, 0, 0.9);
+    z-index: 3;
 }
 .dropdownBtn{
     margin-top: 5px;
@@ -47,21 +48,22 @@ nav{
     display: block;
 }
 .heading{
-    margin-top: 75px;
-    padding: 10px;
     color: white;
     font-size: 200%;
-    text-align: center;
     min-height: 250px;
+    text-align: center;
 }
 span.typed-content{
     color: white;
 }
-body{
-    background-image: url("./images/pixel-space-background.jpg");
-    background-color: black;
-    background-repeat: round;
-    color: white;
+#section-title{
+    background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,0), rgba(252, 252, 252, 0.3));
+}
+#section-bio{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgb(46, 110, 192), rgb(31, 91, 169));
+}
+#section-social{
+    background: linear-gradient(to bottom, rgb(31, 91, 169), rgb(31, 91, 169), rgb(18, 41, 118));
 }
 .flex-container-bio{
     display: flex;
@@ -79,11 +81,153 @@ body{
     width: 500px;
     margin-left: -100px;
     font-size: 120%;
-    background-image: linear-gradient(to right, darkgray, rgba(0,0,0,0.1));
+    background-image: linear-gradient(to right, darkgray, rgb(46, 110, 192));
     background-color: rgba(0, 0, 0, 0.66);
+    border-radius: 75px;
 }
 .flex-box-bio-text p{
     margin-left: 110px;
+}
+.uppersky{
+    color: black;
+}
+#cloud-small{
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    border-radius: 150px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+}
+#cloud-small:after {
+    content: '';
+    background: rgba(255, 255, 255);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -50px;
+    left: 50px;
+}
+#cloud-small:before {
+    content: '';
+    background: rgba(255, 255, 255);
+    position: absolute;
+    width: 170px;
+    height: 150px;
+    border-radius: 50%;
+    top: -90px;
+    right: 40px;
+}
+#cloud-large{
+    background-color: white;
+    width: 600px;
+    height: 150px;
+    border-radius: 150px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+}
+#cloud-large:after {
+    content: '';
+    background: rgba(255, 255, 255);
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    top: -75px;
+    left: 50px;
+}
+#cloud-large:before {
+    content: '';
+    background: rgba(255, 255, 255);
+    position: absolute;
+    width: 340px;
+    height: 225px;
+    border-radius: 50%;
+    top: -140px;
+    right: 40px;
+}
+#cloud-medium{
+    background-color: white;
+    width: 450px;
+    height: 150px;
+    border-radius: 150px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+}
+#cloud-medium:after {
+    content: '';
+    background: rgba(255, 255, 255);
+    position: absolute;
+    width: 220px;
+    height: 150px;
+    border-radius: 50%;
+    top: -100px;
+    left: 50px;
+}
+#cloud-medium:before {
+    content: '';
+    background: rgba(255, 255, 255);
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    top: -75px;
+    right: 75px;
+}
+#bottom-cloud{
+    position: absolute;
+    background-color: white;
+    width: 900px;
+    height: 125px;
+    border-radius: 150px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    bottom: -5%;
+    left: 10%;
+    z-index: 1;
+}
+#bottom-cloud:after{
+    content: '';
+    background: rgba(255, 255, 255);
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    top: -30px;
+    right: 480px;
+}
+.cloud-large1{
+    position: absolute;
+    top: 15%;
+    left: -10%;
+}
+.cloud-medium1{
+    position: absolute;
+    top: 12%;
+    left: 60%;
+}
+.lowersky{
+    color: black;
+}
+.cloud-small1{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}
+.cloud-small2{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+.cloud-medium2{
+    position: absolute;
+    bottom: -5%;
+    left: -5%;
+}
+.cloud-large2{
+    position: absolute;
+    bottom: -5%;
+    right: -5%; 
+}
+.social-upper-sky{
+    color: black;
 }
 .social-media-plug{
     margin-top: 50px;
@@ -116,10 +260,9 @@ body{
     width: 175px;
     height: 175px;
 }
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-image: linear-gradient(180deg, rgba(0,0,0,0.5), darkgray);
+body{
+    background-image: url("./images/pixel-space-background.jpg");
+    background-color: black;
+    background-repeat: round;
+    color: white;
 }
