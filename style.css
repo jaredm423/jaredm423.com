@@ -266,3 +266,18 @@ body{
     background-repeat: round;
     color: white;
 }
+@media screen and (max-width: 500px){
+    .heading{
+        font-size: 100%;
+    }
+    .flex-box-bio-pic{
+        width: 125px;
+    }
+    .flex-box-bio-text{
+        width: 250px;
+        font-size: 100%;
+    }
+    .flex-box-bio-text p{
+        margin-left: 110px;
+    }
+}
