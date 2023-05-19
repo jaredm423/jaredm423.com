@@ -14,7 +14,7 @@ nav{
     height: 40px;
     width: 40px;
     background-color: black;
-    background-image: url("../images/dropdown-icon-white.png");
+    background-image: url("./images/dropdown-icon-white.png");
     background-size: 95%;
     cursor: pointer;
     border-radius: 10%;
