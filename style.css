@@ -63,7 +63,7 @@ span.typed-content{
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgb(46, 110, 192), rgb(31, 91, 169));
 }
 #section-social{
-    background: linear-gradient(to bottom, rgb(31, 91, 169), rgb(31, 91, 169), rgb(18, 41, 118));
+    background: linear-gradient(to bottom, rgb(31, 91, 169), rgb(31, 91, 169), rgb(31, 91, 169), rgb(18, 41, 118), rgb(0,0,0));
 }
 .flex-container-bio{
     display: flex;
@@ -175,12 +175,12 @@ span.typed-content{
 #bottom-cloud{
     position: absolute;
     background-color: white;
-    width: 900px;
+    width: 100%;
+    min-width: 500px;
     height: 125px;
     border-radius: 150px;
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
     bottom: -5%;
-    left: 10%;
+    left: 0%;
     z-index: 1;
 }
 #bottom-cloud:after{
@@ -227,19 +227,29 @@ span.typed-content{
     right: -5%; 
 }
 .social-upper-sky{
-    color: black;
+    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.5) ,rgba(255,255,255,0.1), rgb(31, 91, 169));
+    min-height: 250px;
 }
 .social-media-plug{
     margin-top: 50px;
     text-align: center;
 }
+#linkedin-message{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
 .flex-container1{
-    display: flex;
+    display: block;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 300px;
+    margin-bottom: 600px;
 }
 .flex-box1{
+    position: absolute;
+    top: 30%;
+    left: 25%;
     padding-top: 25px;
     background-color: white;
     background-image: linear-gradient(180deg, white, black);
@@ -260,6 +270,62 @@ span.typed-content{
     width: 175px;
     height: 175px;
 }
+.flex-box1 h3{
+    margin-top: -25px;
+    margin-bottom: 0px;
+    color: black;
+}
+#github-message{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+.flex-box2{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    padding-top: 25px;
+    background-color: white;
+    background-image: linear-gradient(180deg, white, black);
+    border-style: solid;
+    border-radius: 10%;
+    height: 200px;
+    width: 200px;
+}
+.flex-box2:hover{
+    background-image: linear-gradient(180deg, darkgray, black);
+}
+.flex-box2 h3{
+    margin-top: -25px;
+    margin-bottom: 0px;
+    color: black;
+}
+.github-img{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+    height: 175px;
+}
+.ground{
+    background: linear-gradient(rgb(22, 110, 22), rgb(4, 44, 4), rgb(0,0,0));
+    z-index: 3;
+    min-height: 225px;
+}
+.grass{
+    min-height: 75px;
+    min-width: 500px;
+    width: 100%;
+    background-image: url("./images/grass2.png");
+    background-repeat: repeat-x;
+}
+.seal{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
 body{
     background-image: url("./images/pixel-space-background.jpg");
     background-color: black;
@@ -271,13 +337,192 @@ body{
         font-size: 100%;
     }
     .flex-box-bio-pic{
-        width: 125px;
+        width: 160px;
+        height: 160px;
+        margin-top: 10px;
+    }
+    .flex-box-bio-pic img{
+       max-width: 100%;
     }
     .flex-box-bio-text{
-        width: 250px;
+        width: 340px;
+        height: 180px;
         font-size: 100%;
     }
     .flex-box-bio-text p{
-        margin-left: 110px;
+        margin-top: 30px;
+        margin-left: 103px;
+        font-size: 85%;
+    }
+    #cloud-small{
+        background-color: white;
+        width: 150px;
+        height: 50px;
+        border-radius: 150px;
+        box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    }
+    #cloud-small:after {
+        content: '';
+        background: rgba(255, 255, 255);
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        top: -25px;
+        left: 25px;
+    }
+    #cloud-small:before {
+        content: '';
+        background: rgba(255, 255, 255);
+        position: absolute;
+        width: 85px;
+        height: 75px;
+        border-radius: 50%;
+        top: -45px;
+        right: 20px;
+    }
+    #cloud-large{
+        background-color: white;
+        width: 300px;
+        height: 75px;
+        border-radius: 150px;
+        box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    }
+    #cloud-large:after {
+        content: '';
+        background: rgba(255, 255, 255);
+        position: absolute;
+        width: 100px;
+        height: 75px;
+        border-radius: 50%;
+        top: -37px;
+        left: 25px;
+    }
+    #cloud-large:before {
+        content: '';
+        background: rgba(255, 255, 255);
+        position: absolute;
+        width: 170px;
+        height: 112px;
+        border-radius: 50%;
+        top: -70px;
+        right: 20px;
+    }
+    #cloud-medium{
+        background-color: white;
+        width: 225px;
+        height: 75px;
+        border-radius: 150px;
+        box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    }
+    #cloud-medium:after {
+        content: '';
+        background: rgba(255, 255, 255);
+        position: absolute;
+        width: 110px;
+        height: 75px;
+        border-radius: 50%;
+        top: -50px;
+        left: 25px;
+    }
+    #cloud-medium:before {
+        content: '';
+        background: rgba(255, 255, 255);
+        position: absolute;
+        width: 60px;
+        height: 50px;
+        border-radius: 50%;
+        top: -37px;
+        right: 37px;
+    }
+    #bottom-cloud{
+        position: absolute;
+        background-color: white;
+        width: 900px;
+        height: 62px;
+        border-radius: 150px;
+        bottom: -5%;
+        left: -5%;
+        z-index: 1;
+    }
+    #bottom-cloud:after{
+        content: '';
+        background: rgba(255, 255, 255);
+        position: absolute;
+        width: 150px;
+        height: 50px;
+        border-radius: 50%;
+        top: -30px;
+        right: 480px;
+    }
+    .cloud-small1{
+        position: absolute;
+        top: 65%;
+        left: 60%;
+    }
+    .cloud-small2{
+        position: absolute;
+        top: 75%;
+        left: 10%;
+    }
+    .flex-container1{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .flex-box1{
+        left: 10%;
+        background-color: white;
+        background-image: linear-gradient(180deg, white, black);
+        border-style: solid;
+        border-radius: 10%;
+        height: 110px;
+        width: 125px;
+    }
+    .flex-box1:hover{
+        background-image: linear-gradient(180deg, darkgray, black);
+    }
+    .flex-box1 h3{
+        margin-top: -25px;
+        margin-bottom: 0px;
+        color: black;
+    }
+    .linkedin-img{
+        display: block;
+        width: 100px;
+        height: 100px;
+    }
+    .flex-box2{
+        right: 10%;
+        padding-top: 25px;
+        background-color: white;
+        background-image: linear-gradient(180deg, white, black);
+        border-style: solid;
+        border-radius: 10%;
+        height: 110px;
+        width: 125px;
+    }
+    .flex-box2:hover{
+        background-image: linear-gradient(180deg, darkgray, black);
+    }
+    .flex-box2 h3{
+        margin-top: -25px;
+        margin-bottom: 0px;
+        color: black;
+    }
+    .github-img{
+        display: block;
+        width: 100px;
+        height: 100px;
+    }
+    .ground{
+        background: linear-gradient(rgb(22, 110, 22), rgb(4, 44, 4), rgb(0,0,0));
+        z-index: 3;
+        min-height: 110px;
+    }
+    .grass{
+        min-height: 75px;
+        min-width: 100%;
+        background-image: url("./images/grass2.png");
+        background-repeat: repeat-x;
     }
 }
