@@ -465,6 +465,9 @@ body{
         top: 75%;
         left: 10%;
     }
+    .social-upper-sky{
+        min-height: 250px;
+    }
     .flex-container1{
         margin-top: 0px;
         margin-bottom: 0px;
