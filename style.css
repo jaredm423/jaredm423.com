@@ -466,7 +466,7 @@ body{
         left: 10%;
     }
     .social-upper-sky{
-        min-height: 250px;
+        min-height: 225px;
     }
     .flex-container1{
         margin-top: 0px;
@@ -523,7 +523,7 @@ body{
         min-height: 110px;
     }
     .grass{
-        min-height: 75px;
+        min-height: 100px;
         min-width: 100%;
         background-image: url("./images/grass2.png");
         background-repeat: repeat-x;
