@@ -71,7 +71,7 @@ span.typed-content{
 }
 .flex-box-bio-pic{
     justify-content: left;
-    background-color: white;
+    background: linear-gradient(to right, gray, white);
     width: 250px;
     border-radius: 30%;
     z-index: 1;
