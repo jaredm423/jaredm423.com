@@ -53,6 +53,10 @@ body{
     background-color: black;
     background-image: url("http://jaredm423.com/images/pixel-space-background.jpg");
 }
+h2{
+    margin-bottom: 50px;
+    font-size: 200%;
+}
 #section-heading{
     text-align: center;
     font-size: 200%;
@@ -60,31 +64,32 @@ body{
 #section-whoami{
     text-align: center;
 }
-h2{
-    margin-bottom: 100px;
-    font-size: 200%;
+#section-myskills h2{
+    margin-bottom: 5px;
+    color: linear-gradient(to right, red, orange, yellow);
 }
 .flex-container-bio{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items:center;
 }
 .flex-box-bio-pic{
     background: linear-gradient(to right, gray, white);
-    width: 125px;
+    width: 250px;
     border-radius: 50%;
     z-index: 1;
+    margin-bottom: 25px;
 }
 .flex-box-bio-pic img{
     max-width: 100%;
-    width: 110px;
+    width: 225px;
     border-radius: 50%;
 }
 .flex-box-bio-text{
     background: linear-gradient(to right, rgb(52, 51, 51),rgb(112, 110, 110),rgba(255, 255, 255, 0.5) );
-    width: 250px;
-    height: 225px;
-    margin-left: -100px;
+    width: 315px;
+    height: 300px;
     border-radius: 10%;
 }
 #section-myskills{
@@ -95,28 +100,63 @@ h2{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    row-gap: 50px;
+    text-align: center;
 }
 .flex-box-skills1{
-    text-align: center;
-    width: 200px;
+    width: 300px;
     color: black;
-    background: linear-gradient(to right, gray, white);
-    border-radius: 10%;
+    background: linear-gradient(to right, gray, white, gray);
+    border-radius: 5%;
+    margin-bottom: 5px;
+}
+.flex-box-skills1-1{
+    text-align: left;
+    width: 300px;
+    color: black;
+    background: linear-gradient(to right, gray, white, red);
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+.flex-box-skills1-1 h4{
+    margin-left: 10px;
 }
 .flex-box-skills2{
     text-align: center;
-    width: 200px;
+    width: 300px;
     color: black;
-    background: linear-gradient(to right, gray, white);
-    border-radius: 10%;
+    background: linear-gradient(to right, gray, white, gray);
+    border-radius: 5%;
+    margin-bottom: 5px;
+}
+.flex-box-skills2-1{
+    text-align: left;
+    width: 300px;
+    color: black;
+    background: linear-gradient(to right, gray, white, orange);
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+.flex-box-skills2-1 h4{
+    margin-left: 10px;
 }
 .flex-box-skills3{
     text-align: center;
-    width: 200px;
+    width: 300px;
     color: black;
-    background: linear-gradient(to right, gray, white);
-    border-radius: 10%;
+    background: linear-gradient(to right, gray, white, gray);
+    border-radius: 5%;
+    margin-bottom: 5px;
+}
+.flex-box-skills3-1{
+    text-align: left;
+    width: 300px;
+    color: black;
+    background: linear-gradient(to right, gray, white, yellow);
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+.flex-box-skills3-1 h4{
+    margin-left: 10px;
 }
 #section-passion{
     text-align: center;
@@ -126,28 +166,54 @@ h2{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    row-gap: 50px;
 }
 .flex-box-passion1{
     text-align: center;
-    width: 200px;
+    width: 300px;
     color: black;
     background: linear-gradient(to right, gray, white);
-    border-radius: 10%;
+    border-radius: 5%;
+    margin-bottom: 5px;
+}
+.flex-box-passion1-1{
+    text-align: left;
+    width: 300px;
+    color: black;
+    background: linear-gradient(to right, gray, white);
+    border-radius: 5%;
+    margin-bottom: 20px;
 }
 .flex-box-passion2{
     text-align: center;
-    width: 200px;
+    width: 300px;
     color: black;
     background: linear-gradient(to right, gray, white);
-    border-radius: 10%;
+    border-radius: 5%;
+    margin-bottom: 5px;
+}
+.flex-box-passion2-1{
+    text-align: left;
+    width: 300px;
+    color: black;
+    background: linear-gradient(to right, gray, white);
+    border-radius: 5%;
+    margin-bottom: 20px;
 }
 .flex-box-passion3{
     text-align: center;
-    width: 200px;
+    width: 300px;
     color: black;
     background: linear-gradient(to right, gray, white);
-    border-radius: 10%;
+    border-radius: 5%;
+    margin-bottom: 5px;
+}
+.flex-box-passion3-1{
+    text-align: left;
+    width: 300px;
+    color: black;
+    background: linear-gradient(to right, gray, white);
+    border-radius: 5%;
+    margin-bottom: 20px;
 }
 #section-contact{
     text-align: center;
