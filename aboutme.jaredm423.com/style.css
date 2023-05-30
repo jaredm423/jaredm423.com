@@ -106,14 +106,14 @@ h4{
 }
 .flex-box-bio-text{
     text-align: left;  
-    background: linear-gradient(to right, gray, white, gray);
+    background: linear-gradient(to right, black, rgb(66, 66, 66), black);
     max-height: 315px;
     max-height: 300px;
     padding: 2rem;
 }
 .flex-box-bio-text p{
-    color: black;
-    font-size: 125%;
+    color: white;
+    font-size: 100%;
 }
 #section-myskills{
     text-align: center;
@@ -244,7 +244,7 @@ h4{
     text-align: center;
 }
 #section-passion2 h2{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #section-passion2 p{
     margin-left: 10px;
