@@ -179,7 +179,7 @@ h2{
     text-align: left;
     width: 300px;
     color: black;
-    background: linear-gradient(to right, gray, white);
+    background: linear-gradient(to right, gray, white, green);
     border-radius: 5%;
     margin-bottom: 20px;
 }
@@ -195,7 +195,7 @@ h2{
     text-align: left;
     width: 300px;
     color: black;
-    background: linear-gradient(to right, gray, white);
+    background: linear-gradient(to right, gray, white, blue);
     border-radius: 5%;
     margin-bottom: 20px;
 }
@@ -211,7 +211,7 @@ h2{
     text-align: left;
     width: 300px;
     color: black;
-    background: linear-gradient(to right, gray, white);
+    background: linear-gradient(to right, gray, white, indigo);
     border-radius: 5%;
     margin-bottom: 20px;
 }
@@ -229,7 +229,7 @@ h2{
     text-align: center;
     width: 200px;
     color: black;
-    background: linear-gradient(to right, gray, white);
+    background: linear-gradient(to right, white, red, orange, yellow, green, blue, indigo);
     border-radius: 10%;
 }
 .flex-box-contact2{
