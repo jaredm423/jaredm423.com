@@ -118,6 +118,9 @@ h4{
 #section-myskills{
     text-align: center;
 }
+#section-myskills h3{
+    color: white;
+}
 .flex-container-skills{
     display: flex;
     flex-direction: column;
@@ -126,62 +129,56 @@ h4{
     text-align: center;
 }
 .flex-box-skills1-border{
-    background: linear-gradient(to right, white, red);
+    background: linear-gradient(to right, orange, red);
     padding: 3px;
     margin-bottom: 5px;
 }
 .flex-box-skills1{
     max-height: 30px;
     width: 300px;
-    color: black;
-    background: linear-gradient(to right, gray, white, gray);
+    background: linear-gradient(to right, black, rgb(66, 66, 66), black);
     padding: 5px;
 }
 .flex-box-skills1-1{
     text-align: left;
     width: 300px;
-    color: black;
-    background: linear-gradient(to right, gray, white, red);
+    background: linear-gradient(to right, black, rgb(66, 66, 66), red);
     border-radius: 5%;
     margin-bottom: 10px;
 }
 .flex-box-skills2-border{
-    background: linear-gradient(to right, white, orange);
+    background: linear-gradient(to right, yellow, orange);
     padding: 3px;
     margin-bottom: 5px;
 }
 .flex-box-skills2{
     max-height: 30px;
     width: 300px;
-    color: black;
-    background: linear-gradient(to right, gray, white, gray);
+    background: linear-gradient(to right, black, rgb(66, 66, 66), black);
     padding: 5px;
 }
 .flex-box-skills2-1{
     text-align: left;
     width: 300px;
-    color: black;
-    background: linear-gradient(to right, gray, white, orange);
+    background: linear-gradient(to right, black, rgb(66, 66, 66), orange);
     border-radius: 5%;
     margin-bottom: 10px;
 }
 .flex-box-skills3-border{
-    background: linear-gradient(to right, white, yellow);
+    background: linear-gradient(to right, green, yellow);
     padding: 3px;
     margin-bottom: 5px;
 }
 .flex-box-skills3{
     max-height: 30px;
     width: 300px;
-    color: black;
-    background: linear-gradient(to right, gray, white, gray);
+    background: linear-gradient(to right, black, rgb(66, 66, 66), black);
     padding: 5px;
 }
 .flex-box-skills3-1{
     text-align: left;
     width: 300px;
-    color: black;
-    background: linear-gradient(to right, gray, white, yellow);
+    background: linear-gradient(to right, black, rgb(66, 66, 66), yellow);
     border-radius: 5%;
     margin-bottom: 10px;
 }
@@ -201,42 +198,38 @@ h4{
     align-items: center;
 }
 .flex-box-passion1-border{
-    background: linear-gradient(to right, white, green);
+    background: linear-gradient(to right, rgb(0, 102, 255), green);
     padding: 3px;
     margin-bottom: 5px;
 }
 .flex-box-passion1{
     max-height: 30px;
     width: 300px;
-    color: black;
-    background: linear-gradient(to right, gray, white, gray);
+    background: linear-gradient(to right, black, rgb(66, 66, 66), black);
     padding: 5px;
 }
 .flex-box-passion1-1{
     text-align: left;
     width: 350px;
-    color: black;
-    background: linear-gradient(to right, gray, white, green);
+    background: linear-gradient(to right, black, rgb(66, 66, 66), green);
     border-radius: 5%;
     margin-bottom: 5px;
 }
 .flex-box-passion2-border{
-    background: linear-gradient(to right, white, rgb(0, 102, 255));
+    background: linear-gradient(to right, indigo, rgb(0, 102, 255));
     padding: 3px;
     margin-bottom: 5px;
 }
 .flex-box-passion2{
     max-height: 30px;
     width: 300px;
-    color: black;
-    background: linear-gradient(to right, gray, white, gray);
+    background: linear-gradient(to right, black, rgb(66, 66, 66), black);
     padding: 5px;
 }
 .flex-box-passion2-1{
     text-align: left;
     width: 350px;
-    color: black;
-    background: linear-gradient(to right, gray, white, rgb(0, 102, 255));
+    background: linear-gradient(to right, black, rgb(66, 66, 66), rgb(0, 102, 255));
     border-radius: 5%;
     margin-bottom: 5px;
 }
@@ -257,15 +250,13 @@ h4{
 .flex-box-passion3{
     max-height: 30px;
     width: 300px;
-    color: black;
-    background: linear-gradient(to right, gray, white, gray);
+    background: linear-gradient(to right, black, rgb(66, 66, 66), black);
     padding: 5px;
 }
 .flex-box-passion3-1{
     text-align: left;
     width: 350px;
-    color: black;
-    background: linear-gradient(to right, gray, white, indigo);
+    background: linear-gradient(to right, black, rgb(66, 66, 66), indigo);
     border-radius: 5%;
     margin-bottom: 5px;
 }
@@ -287,14 +278,6 @@ h4{
 .flex-box-contact1{
     max-height: 30px;
     width: 300px;
-    color: black;
-    background: linear-gradient(to right, gray, white, gray);
+    background: linear-gradient(to right, black, rgb(66, 66, 66), black);
     padding: 5px;
-}
-.flex-box-contact2{
-    text-align: center;
-    width: 200px;
-    color: black;
-    background: linear-gradient(to right, gray, white);
-    border-radius: 10%;
 }
