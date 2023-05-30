@@ -109,7 +109,7 @@ h4{
     background: linear-gradient(to right, black, rgb(66, 66, 66), black);
     max-height: 315px;
     max-height: 300px;
-    padding: 2rem;
+    padding: 1rem;
 }
 .flex-box-bio-text p{
     color: white;
