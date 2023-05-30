@@ -72,7 +72,9 @@ h3{
     margin-top: 5px;
 }
 h4{
-    margin-left: 10px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .flex-container-bio{
     display: flex;
