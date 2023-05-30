@@ -65,7 +65,7 @@ h2{
     text-align: center;
 }
 #section-myskills h2{
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     color: linear-gradient(to right, red, orange, yellow);
 }
 h3{
@@ -75,6 +75,7 @@ h4{
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: normal;
 }
 .flex-container-bio{
     display: flex;
@@ -187,6 +188,14 @@ h4{
 #section-passion{
     text-align: center;
 }
+#section-passion h2{
+    margin-bottom: 10px;
+    font-size: 190%;
+}
+#section-passion p{
+    font-size: 90%;
+    margin-left: 10px;
+}
 .flex-container-passion{
     display: flex;
     flex-direction: column;
@@ -207,14 +216,14 @@ h4{
 }
 .flex-box-passion1-1{
     text-align: left;
-    width: 300px;
+    width: 350px;
     color: black;
     background: linear-gradient(to right, gray, white, green);
     border-radius: 5%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .flex-box-passion2-border{
-    background: linear-gradient(to right, white, blue);
+    background: linear-gradient(to right, white, rgb(0, 102, 255));
     padding: 3px;
     margin-bottom: 5px;
 }
@@ -227,11 +236,11 @@ h4{
 }
 .flex-box-passion2-1{
     text-align: left;
-    width: 300px;
+    width: 350px;
     color: black;
-    background: linear-gradient(to right, gray, white, blue);
+    background: linear-gradient(to right, gray, white, rgb(0, 102, 255));
     border-radius: 5%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .flex-box-passion3-border{
     background: linear-gradient(to right, white, indigo);
@@ -247,11 +256,11 @@ h4{
 }
 .flex-box-passion3-1{
     text-align: left;
-    width: 300px;
+    width: 350px;
     color: black;
     background: linear-gradient(to right, gray, white, indigo);
     border-radius: 5%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #section-contact{
     text-align: center;
