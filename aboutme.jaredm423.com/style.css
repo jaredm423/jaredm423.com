@@ -189,11 +189,9 @@ h4{
     text-align: center;
 }
 #section-passion h2{
-    margin-bottom: 10px;
-    font-size: 190%;
+    margin-bottom: 20px;
 }
 #section-passion p{
-    font-size: 90%;
     margin-left: 10px;
 }
 .flex-container-passion{
@@ -220,7 +218,7 @@ h4{
     color: black;
     background: linear-gradient(to right, gray, white, green);
     border-radius: 5%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .flex-box-passion2-border{
     background: linear-gradient(to right, white, rgb(0, 102, 255));
@@ -240,7 +238,16 @@ h4{
     color: black;
     background: linear-gradient(to right, gray, white, rgb(0, 102, 255));
     border-radius: 5%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+#section-passion2{
+    text-align: center;
+}
+#section-passion2 h2{
+    margin-bottom: 20px;
+}
+#section-passion2 p{
+    margin-left: 10px;
 }
 .flex-box-passion3-border{
     background: linear-gradient(to right, white, indigo);
@@ -260,7 +267,7 @@ h4{
     color: black;
     background: linear-gradient(to right, gray, white, indigo);
     border-radius: 5%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 #section-contact{
     text-align: center;
