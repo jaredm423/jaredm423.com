@@ -44,6 +44,15 @@ nav{
 .show{
     display: block;
 }
+.heading{
+    margin-top: 100px;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+span.typed-content{
+    color: white;
+}
 body{
     background-image: url("http://jaredm423.com/images/pixel-space-background.jpg");
     background-color: black;
@@ -55,9 +64,8 @@ body{
     justify-content: space-evenly;
 }
 .flex-box{
-    border-style: solid;
     overflow: hidden;
-    padding: 50px;
+    padding: 20px;
 }
 .resume-border{
     background: linear-gradient(to bottom, red, yellow);
@@ -67,9 +75,12 @@ body{
     height: 800px;
     max-width: 100%;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
+    .heading{
+        margin-top: 50px;
+    }
     .flex-container{
-        flex-direction: column;
+        margin-top: 50px;
     }
     .flex-box{
         padding: 5px;
