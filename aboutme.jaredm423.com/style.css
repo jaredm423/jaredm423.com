@@ -96,7 +96,6 @@ h4{
     border-radius: 50%;
 }
 .flex-box-bio-text-border{
-    margin-top: 20px;
     background: linear-gradient(to right, blue, red);
     max-width: 321px;
     padding: 1rem;
