@@ -367,7 +367,7 @@ span.typed-content{
     min-width: 100%;
     background-image: url("./images/grass2.png");
     background-repeat: repeat-x;
-    bottom: 17%;
+    bottom: 9%;
 }
 .seal{
     position: absolute;
@@ -732,5 +732,13 @@ body{
         position: absolute;
         bottom: 0%;
         left: 65%;
+    }
+    .ground{
+        min-height: 125px;
+        bottom: 0%;
+    }
+    .grass{
+        min-height: 120px;
+        bottom: 9%;
     }
 }

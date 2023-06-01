@@ -66,7 +66,6 @@ h2{
 }
 #section-myskills h2{
     margin-bottom: 20px;
-    color: linear-gradient(to right, red, orange, yellow);
 }
 h3{
     margin-top: 5px;
@@ -105,7 +104,7 @@ h4{
     padding: 3px;
 }
 .flex-box-bio-text{
-    text-align: left;  
+    text-align: center;  
     background: linear-gradient(to right, black, rgb(66, 66, 66), black);
     max-height: 315px;
     max-height: 300px;
@@ -280,4 +279,139 @@ h4{
     width: 300px;
     background: linear-gradient(to right, black, rgb(66, 66, 66), black);
     padding: 5px;
+}
+@media screen and (min-width:600px){
+    .flex-box-bio-pic{
+        width: 310px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .flex-box-bio-pic img{
+        margin-top: 2px;
+        width: 300px;
+    }
+    .flex-box-bio-text-border{
+        max-width: 805px;
+        padding: 1rem;
+        max-height: 281px;
+        padding: 3px;
+    }
+    .flex-box-bio-text{
+        max-height: 275px;
+        max-width: 800px;
+    }
+    .flex-box-bio-text p{
+        color: white;
+        font-size: 120%;
+    }
+    #section-myskills h2{
+        margin-bottom: 100px;
+    }
+    .flex-box-skills1-border{
+        padding: 3px;
+        margin-bottom: 25px;
+    }
+    .flex-box-skills1{
+        max-height: 30px;
+        width: 425px;
+        font-size: 120%;
+    }
+    .flex-box-skills1-1{
+        width: 425px;
+        border-radius: 5%;
+        margin-bottom: 50px;
+        font-size: 120%;
+    }
+    .flex-box-skills2-border{
+        padding: 3px;
+        margin-bottom: 25px;
+    }
+    .flex-box-skills2{
+        max-height: 30px;
+        width: 425px;
+        padding: 5px;
+        font-size: 120%;
+    }
+    .flex-box-skills2-1{
+        width: 425px;
+        border-radius: 5%;
+        margin-bottom: 50px;
+        font-size: 120%;
+    }
+    .flex-box-skills3-border{
+        padding: 3px;
+        margin-bottom: 25px;
+    }
+    .flex-box-skills3{
+        max-height: 30px;
+        width: 425px;
+        padding: 5px;
+        font-size: 120%;
+    }
+    .flex-box-skills3-1{
+        width: 425px;
+        border-radius: 5%;
+        margin-bottom: 50px;
+        font-size: 120%;
+    }
+    #section-passion h2{
+        margin-bottom: 100px;
+    }
+    #section-passion p{
+        margin-left: 10px;
+    } 
+    .flex-box-passion1-border{
+        padding: 3px;
+        margin-bottom: 25px;
+    }
+    .flex-box-passion1{
+        max-height: 30px;
+        width: 425px;
+        padding: 5px;
+        font-size: 120%;
+    }
+    .flex-box-passion1-1{
+        padding: 1rem;
+        width: 800px;
+        border-radius: 5%;
+        margin-bottom: 50px; 
+        font-size: 120%;
+    }
+    .flex-box-passion2-border{
+        padding: 3px;
+        margin-bottom: 25px;
+    }
+    .flex-box-passion2{
+        max-height: 30px;
+        width: 425px;
+        padding: 5px;
+        font-size: 120%;
+    }
+    .flex-box-passion2-1{
+        padding: 1rem;
+        width: 800px;
+        border-radius: 5%;
+        margin-bottom: 50px;
+        font-size: 120%;
+    }
+    #section-passion2 h2{
+        margin-bottom: 100px;
+    }
+    .flex-box-passion3-border{
+        padding: 3px;
+        margin-bottom: 25px;
+    }
+    .flex-box-passion3{
+        max-height: 30px;
+        width: 425px;
+        padding: 5px;
+        font-size: 120%;
+    }
+    .flex-box-passion3-1{
+        padding: 1rem;
+        width: 800px;
+        border-radius: 5%;
+        margin-bottom: 50px;
+        font-size: 120%;
+    }
 }
