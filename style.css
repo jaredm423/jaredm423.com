@@ -10,8 +10,8 @@ nav{
     z-index: 3;
 }
 .dropdownBtn{
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 0px;
+    margin-left: 2px;
     height: 40px;
     width: 40px;
     background-color: black;
@@ -73,7 +73,7 @@ span.typed-content{
     background: linear-gradient(to right, gray, white, gray);
     width: 250px;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,6 +86,7 @@ span.typed-content{
     height: 240px;
     margin-left: 1px;
     overflow: hidden;
+    z-index: 2;
 }
 .bio-pic{
     margin-left: 30px;
@@ -103,6 +104,7 @@ span.typed-content{
     margin-left: -100px;
     margin-right: 3px;
     overflow: visible;
+    z-index: 1;
 }
 .flex-box-bio-text{
     width: 500px;
@@ -114,6 +116,7 @@ span.typed-content{
     background-color: rgba(0, 0, 0, 0.66);
     border-radius: 75px;
     padding: 5px;
+    z-index: 1;
 }
 .flex-box-bio-text p{
     margin-top: 45px;
@@ -226,38 +229,38 @@ span.typed-content{
 }
 .cloud-large1{
     position: absolute;
-    top: 15%;
-    left: -10%;
+    top: 20%;
+    left: -40%;
 }
 .cloud-medium1{
     position: absolute;
-    top: 12%;
+    top: 15%;
     left: 60%;
 }
 .cloud-small1{
     position: absolute;
     top: 60%;
-    left: 60%;
+    left: 85%;
 }
 .cloud-small2{
     position: absolute;
     top: 70%;
-    left: 10%;
+    left: 5%;
 }
 .cloud-medium2{
     position: absolute;
     bottom: -5%;
-    left: -5%;
+    left: -20%;
 }
 .cloud-large2{
     position: absolute;
     bottom: -5%;
-    right: -5%; 
+    right: -20%; 
 }
 .cloud-large3{
     position: absolute;
-    bottom: 0%;
-    left: 15%;
+    bottom: -10%;
+    left: 10%;
 }
 .cloud-small3{
     position: absolute;
@@ -354,13 +357,13 @@ span.typed-content{
     position: absolute;
     background: linear-gradient(rgb(22, 110, 22), rgb(4, 44, 4), rgb(0,0,0));
     z-index: 3;
-    min-height: 250px;
+    min-height: 125px;
     min-width: 100%;
     bottom: 0%;
 }
 .grass{
     position: absolute;
-    min-height: 150px;
+    min-height: 120px;
     min-width: 100%;
     background-image: url("./images/grass2.png");
     background-repeat: repeat-x;
