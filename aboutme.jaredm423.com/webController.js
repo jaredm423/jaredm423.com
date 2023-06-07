@@ -1,7 +1,6 @@
 function dropdownClick(){
     document.getElementById("myDropdown").classList.toggle("show");
 }
-
 window.onclick = function(event){
     if(!event.target.matches('.dropdownBtn')){
         var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -13,4 +12,9 @@ window.onclick = function(event){
             }
         }
     }
+}
+
+function emailClick(){
+    navigator.clipboard.writeText("jaredm423@gmail.com");
+    alert("Copied email address to clipboard");
 }
