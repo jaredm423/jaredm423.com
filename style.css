@@ -385,7 +385,8 @@ body{
         font-size: 100%;
     }
     .flex-box-bio-border{
-        min-width: 165px;
+        min-width: 300px;
+        width: 320px;
         margin-left: -100px;
     }
     .flex-box-bio-pic{
