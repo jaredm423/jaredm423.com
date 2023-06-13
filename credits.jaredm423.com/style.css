@@ -53,3 +53,9 @@ body{
     background-color: black;
     background-image: url("http://jaredm423.com/images/pixel-space-background.jpg");
 }
+.heading{
+    color: white;
+    font-size: 200%;
+    min-height: 250px;
+    text-align: center;
+}
