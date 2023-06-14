@@ -45,6 +45,17 @@ nav{
     background-color: darkgray;
     border-radius: 5%;
 }
+.bugreportBtn{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    background-image: url("http://jaredm423.com/images/bug-report-image.png");
+    cursor: pointer;
+    z-index: 1;
+}
+.bugreportBtn:hover{
+    background-color: darkgray;
+}
 .show{
     display: block;
 }
@@ -54,8 +65,4 @@ body{
     background-color: black;
     background-image: url("http://jaredm423.com/images/pixel-space-background.jpg");
     text-align: center;
-}
-.heading{
-    font-size: 200%;
-    min-height: 250px;
 }
