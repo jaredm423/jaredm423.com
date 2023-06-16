@@ -10,6 +10,10 @@ nav{
     z-index: 10;
     text-align: left;
 }
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+}
 .dropdownBtn{
     margin-top: 5px;
     margin-left: 5px;
@@ -46,10 +50,15 @@ nav{
     border-radius: 5%;
 }
 .bugreportBtn{
+    margin-right: 5px;
+    margin-top: 5px;
     height: 40px;
     width: 40px;
-    background-color: white;
+    background-color: green;
     background-image: url("http://jaredm423.com/images/bug-report-image.png");
+    background-size: 100%;
+    border-radius: 10%;
+    border-color: white;
     cursor: pointer;
     z-index: 1;
 }
@@ -65,4 +74,14 @@ body{
     background-color: black;
     background-image: url("http://jaredm423.com/images/pixel-space-background.jpg");
     text-align: center;
+}
+.report-form{
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+}
+.report-form form{
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
