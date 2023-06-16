@@ -34,6 +34,12 @@
     <div class="report-form">
         <h3>Please fill out the form below!</h3>
         <form action="https://formsubmit.co/ecb1c32f5fbb8a365c39fe60c7ca44e8" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+            
             <label for="name">Your Full Name</label><br>
             <input type="text" id="name" name="name" autocomplete="additional-name"><br>
             <label for="email">Your Email Address</label><br>
