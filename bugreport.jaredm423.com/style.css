@@ -32,6 +32,7 @@ nav{
 .dropdown-content{
     display: none;
     position: absolute;
+    margin-top: 45px;
     background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -54,7 +55,7 @@ nav{
     margin-top: 5px;
     height: 40px;
     width: 40px;
-    background-color: green;
+    background-color: rgb(101, 100, 100);
     background-image: url("http://jaredm423.com/images/bug-report-image.png");
     background-size: 100%;
     border-radius: 10%;
@@ -74,14 +75,49 @@ body{
     background-color: black;
     background-image: url("http://jaredm423.com/images/pixel-space-background.jpg");
     text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-size: 135%;
 }
 .report-form{
     background-color: black;
     border-style: solid;
     border-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .report-form form{
-    text-align: left;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea#bug-report{
+    height: auto;
+    width: 70%;
+}
+iframe{
+    border-radius: 10%;
+}
+@media screen and (min-width: 1200px){
+    .report-form{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    textarea#bug-report{
+        height: auto;
+        width: 50%;
+    }
 }

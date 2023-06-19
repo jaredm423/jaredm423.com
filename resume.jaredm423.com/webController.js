@@ -1,7 +1,11 @@
 function dropdownClick(){
     document.getElementById("myDropdown").classList.toggle("show");
 }
-
+function bugreportClick(){
+    document.getElementById("bugreportBtn").onclick = function () {
+        location.href = "http://bugreport.jaredm423.com";
+    };
+}
 window.onclick = function(event){
     if(!event.target.matches('.dropdownBtn')){
         var dropdowns = document.getElementsByClassName("dropdown-content");

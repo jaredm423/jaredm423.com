@@ -9,6 +9,10 @@ nav{
     background-color:rgba(0, 0, 0, 0.9);
     z-index: 10;
 }
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+}
 .dropdownBtn{
     margin-top: 5px;
     margin-left: 5px;
@@ -43,6 +47,22 @@ nav{
 .dropdown-content a:hover{
     background-color: darkgray;
     border-radius: 5%;
+}
+.bugreportBtn{
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(101, 100, 100);
+    background-image: url("http://jaredm423.com/images/bug-report-image.png");
+    background-size: 100%;
+    border-radius: 10%;
+    border-color: white;
+    cursor: pointer;
+    z-index: 1;
+}
+.bugreportBtn:hover{
+    background-color: darkgray;
 }
 .show{
     display: block;
